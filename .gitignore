@@ -41,7 +41,15 @@ Makefile.in
 # IDE files
 .vscode/
 .idea/
+.exe/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore files without extension that are executable
+*
+!*.c
+!*.h
+!*.md
+!*.gitignore
